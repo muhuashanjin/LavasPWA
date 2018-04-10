@@ -51,7 +51,7 @@ export default {
     name: 'search',
     metaInfo: {
         title: 'Search',
-        titleTemplate: '%s - Zyslsd Program',
+        titleTemplate: '%s -遵义水利水电勘测设计研究院的计算程序',
         meta: [
             {name: 'keywords', content: 'Zyslsd Program'},
             {name: 'description', content: 'Zyslsd Program'}

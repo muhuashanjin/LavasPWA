@@ -33,7 +33,7 @@ export const state = () => {
                 sublistTitle: '列表',
                 list: [
                     {
-                        text: '重力坝计算',
+                        text: '重力坝抗滑稳定计算',
                         icon: 'sentiment_satisfied',
                         route: '/countlist/dambodycount'
                     },

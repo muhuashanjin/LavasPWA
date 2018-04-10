@@ -29,8 +29,8 @@ function setState(store) {
 export default {
     name: 'index',
     metaInfo: {
-        title: 'Home',
-        titleTemplate: '%s - ZyslsdProgram',
+        title: 'ZyslsdProgram',
+        titleTemplate: '%s - 遵义水利水电勘测设计研究院的计算程序',
         meta: [
             {name: 'keywords', content: 'Zyslsd Program'},
             {name: 'description', content: 'Zyslsd Program'}
