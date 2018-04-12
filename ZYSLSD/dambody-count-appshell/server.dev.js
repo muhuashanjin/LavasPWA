@@ -24,7 +24,7 @@ if (process.argv.length >= 3 && process.argv[2] !== 'dev') {
 var proxyTable = {
     // proxy table example
     // '/api': {
-    //     target: 'https://lavas.baidu.com',
+    //     target: '172.16.17.37',
     //     changeOrigin: true
     // }
 };
