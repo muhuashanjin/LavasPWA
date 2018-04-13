@@ -14,7 +14,7 @@ module.exports = {
     build: {
         ssr: false,
         path: BUILD_PATH,
-        publicPath: '/',
+        publicPath: '/zyslsdprogram/dambody-count/',
         ssrCopy: isDev ? [] : [
             {
                 src: 'server.prod.js'
@@ -44,7 +44,7 @@ module.exports = {
     },
     router: {
         mode: 'history',
-        base: '/',
+        base: '/zyslsdprogram/dambody-count/',
         pageTransition: {
             type: 'slide',
             transitionClass: 'slide'
