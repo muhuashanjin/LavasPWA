@@ -10,199 +10,193 @@
                         <tr>
                             <th>{{rowTitles[0]}}{{B3}}</th>
                             <td>
-                                <input v-model="B3" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B3" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[1]}}{{B4}}</th>
                             <td>
-                                <input v-model="B4" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B4" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[2]}}{{B5}}</th>
                             <td>
-                                <input v-model="B5" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B5" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[3]}}{{B6}}</th>
                             <td>
-                                <input v-model="B6" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B6" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[4]}}{{B7}}</th>
                             <td>
-                                <input v-model="B7" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B7" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[5]}}{{B8}}</th>
                             <td>
-                                <input v-model="B8" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B8" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[6]}}{{B9}}</th>
                             <td>
-                                <input v-model="B9" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B9" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[7]}}{{B10}}</th>
                             <td>
-                                <input v-model="B10" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B10" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[8]}}{{B11}}</th>
                             <td>
-                                <input v-model="B11" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B11" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[9]}}{{B12}}</th>
                             <td>
-                                <input v-model="B12" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B12" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[10]}}{{B13}}</th>
                             <td>
-                                <input v-model="B13" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="B13" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[11]}}{{D3}}</th>
                             <td>
-                                <input v-model="D3" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D3" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[12]}}{{D4}}</th>
                             <td>
-                                <input v-model="D4" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D4" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[13]}}{{D5}}</th>
                             <td>
-                                <input v-model="D5" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D5" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[14]}}{{D6}}</th>
                             <td>
-                                <input v-model="D6" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D6" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[15]}}{{D7}}</th>
                             <td>
-                                <input v-model="D7" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D7" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[16]}}{{D8}}</th>
                             <td>
-                                <input v-model="D8" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D8" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[17]}}{{D9}}</th>
                             <td>
-                                <input v-model="D9" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D9" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[18]}}{{D10}}</th>
                             <td>
-                                <input v-model="D10" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D10" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[19]}}{{D11}}</th>
                             <td>
-                                <input v-model="D11" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D11" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[20]}}{{D12}}</th>
                             <td>
-                                <input v-model="D12" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D12" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[21]}}{{D13}}</th>
                             <td>
-                                <input v-model="D13" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="D13" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[22]}}{{K5}}</th>
                             <td>
-                                <input v-model="K5" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K5" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[23]}}{{K6}}</th>
                             <td>
-                                <input v-model="K6" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K6" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[24]}}{{K7}}</th>
                             <td>
-                                <input v-model="K7" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K7" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[25]}}{{K8}}</th>
                             <td>
-                                <input v-model="K8" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K8" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[26]}}{{K9}}</th>
                             <td>
-                                <input v-model="K9" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K9" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[27]}}{{K10}}</th>
                             <td>
-                                <input v-model="K10" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K10" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>                        
                         <tr>
                             <th>{{rowTitles[28]}}{{K11}}</th>
                             <td>
-                                <input v-model="K11" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K11" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[29]}}{{K12}}</th>
                             <td>
-                                <input v-model="K12" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K12" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[30]}}{{K13}}</th>
                             <td>
-                                <input v-model="K13" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="K13" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                         <tr>
                             <th>{{rowTitles[31]}}{{M3}}</th>
                             <td>
-                                <input v-model="M3" style="border: 2px solid #1976d2" placeholder=" 必填">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>{{rowTitles[32]}}{{M11}}</th>
-                            <td>
-                                <input v-model="M11" style="border: 2px solid #1976d2" placeholder=" 必填">
+                                <input v-model.number="M3" style="border: 2px solid #1976d2" placeholder=" 必填">
                             </td>
                         </tr>
                     </table>
@@ -214,13 +208,16 @@
                             <th>{{resultTitles[0]}}{{resultH13}}</th>
                         </tr>
                         <tr>
-                            <th>{{resultTitles[1]}}{{resultM12}}</th>
+                            <th>{{resultTitles[1]}}{{M11}}</th>
                         </tr>
                         <tr>
-                            <th>{{resultTitles[2]}}{{resultM13}}</th>
+                            <th>{{resultTitles[2]}}{{resultM12}}</th>
                         </tr>
                         <tr>
-                            <th>{{resultTitles[3]}}{{resultC35}}</th>
+                            <th>{{resultTitles[3]}}{{resultM13}}</th>
+                        </tr>
+                        <tr>
+                            <th>{{resultTitles[4]}}{{resultC35}}</th>
                         </tr>
                         <tr>
                             <th>{{resultTitles[4]}}{{resultC36}}</th>
@@ -310,11 +307,11 @@
                     "第二滑裂面抗剪断摩擦系数f2´：",
                     "第一滑裂面抗剪断粘结力C1´(t): ",
                     "第二滑裂面抗剪断粘结力C2´(t): ",
-                    "岩体溶重r(t/m3)：",
-                    "两滑面上岩体间作用面上作用力Q(试算使K1´=K2´)："
+                    "岩体溶重r(t/m3)："
                 ],
                 resultTitles: [
-                    "沿建基面滑动（单滑面）- 下游水深矩形浮托力U1(t)：",
+                    "沿建基面滑动（单滑面）- 抗剪断安全系数K´：",
+                    "两滑面上岩体间作用面上作用力Q(试算使K1´=K2´)：",
                     "深层滑动（双滑面）- 第一滑裂面的抗滑稳定安全系数K1´:",
                     "深层滑动（双滑面）- 第二滑裂面的抗滑稳定安全系数K2´:",
                     "重力坝上、下游边缘正应力计算（沿建基面） - 上游边缘正应力:",
@@ -323,40 +320,39 @@
 
                 // rowTitles[0]-B3，rowTitles[11]-D3，rowTitles[22]-K5
                 // 以此类推往下一一对应
-                B3: 796,
-                B4: 758,
-                B5: 797.38,
-                B6: 761.74,
-                B7: 771.2,
-                B8: 793,
-                B9: 5,
-                B10: 1.333333,
-                B11: 0.981,
-                B12: 2.467,
-                B13: 776.5,
-                D3: 0.8,
-                D4: 14,
-                D5: 0.25,
+                B3: 0,
+                B4: 0,
+                B5: 0,
+                B6: 0,
+                B7: 0,
+                B8: 0,
+                B9: 0,
+                B10: 0,
+                B11: 0,
+                B12: 0,
+                B13: 0,
+                D3: 0,
+                D4: 0,
+                D5: 0,
                 D6: 0,
                 D7: 0,
-                D8: 6,
-                D9: 4,
-                D10: 0.78,
-                D11: 68,
-                D12: 0.68,
-                D13: 0.200843,
-                K5:3,
-                K6:38,
-                K7:0.05236,
-                K8:0.66323,
+                D8: 0,
+                D9: 0,
+                D10: 0,
+                D11: 0,
+                D12: 0,
+                D13: 0,
+                K5:0,
+                K6:0,
+                K7:0,
+                K8:0,
                 K9:0,
-                K10:0.58,
-                K11:0.68,
-                K12:18,
-                K13:48,
-                M3:2.7,
-                M11:225,
-
+                K10:0,
+                K11:0,
+                K12:0,
+                K13:0,
+                M3:0,
+                M11:0,
                 //最终结果
                 resultH13:0,
                 resultM12:0,
@@ -367,9 +363,8 @@
             }
         },
         methods: {
+        
         incrementCounter: function () {
-            console.log('server started at localhost:============' );
-
             //==================沿建基面滑动（单滑面）===================
 
             //最大坝高(m)：
@@ -503,12 +498,35 @@
             let M10 = 0.5*(this.B11*(this.B6-this.B4)+this.B11*(this.B6-this.B4+F4*Math.tan(this.K7)))*F4*Math.tan(this.K7);
             console.log("两滑面上岩体间作用面上扬压力U3：" + M10);
             
+            let M12 = 0;
+            let M13 = 0;
+            let fixM12 = 0;
+            let fixM13 = 0;
+
+            do{
+                M12 = (this.K10*((K3+M6)*Math.cos(this.K7)-K4*Math.sin(this.K7)-this.M11*Math.sin(this.K9-this.K7)-
+                M8+M10*Math.sin(this.K7))+this.K12*M4)/((K3+M6)*Math.sin(this.K7)+
+                K4*Math.cos(this.K7)-M10*Math.cos(this.K7)-this.M11*Math.cos(this.K9-this.K7));
+
+                M13 = (this.K11*(M7*Math.cos(this.K8)+this.M11*Math.sin(this.K9+this.K8)-
+                M9+M10*Math.sin(this.K8))+this.K13*M5)/(this.M11*Math.cos(this.K9+this.K8)-
+                M7*Math.sin(this.K8)+M10*Math.cos(this.K8));
+
+                fixM12 = M12.toFixed(2);
+                fixM13 = M13.toFixed(2);
+
+                this.M11 += 0.1;
+            }
+            while( fixM12 != fixM13 );
+
+            console.log("两滑面上岩体间作用面上作用力Q(试算使K1´=K2´)：" + this.M11);
+
             //第一滑裂面的抗滑稳定安全系数K1´:
-            let M12 = (this.K10*((K3+M6)*Math.cos(this.K7)-K4*Math.sin(this.K7)-this.M11*Math.sin(this.K9-this.K7)-M8+M10*Math.sin(this.K7))+this.K12*M4)/((K3+M6)*Math.sin(this.K7)+K4*Math.cos(this.K7)-M10*Math.cos(this.K7)-this.M11*Math.cos(this.K9-this.K7));
+            // let M12 = (this.K10*((K3+M6)*Math.cos(this.K7)-K4*Math.sin(this.K7)-this.M11*Math.sin(this.K9-this.K7)-M8+M10*Math.sin(this.K7))+this.K12*M4)/((K3+M6)*Math.sin(this.K7)+K4*Math.cos(this.K7)-M10*Math.cos(this.K7)-this.M11*Math.cos(this.K9-this.K7));
             console.log("第一滑裂面的抗滑稳定安全系数K1´：" + M12);
 
             //第二滑裂面的抗滑稳定安全系数K2´:
-            let M13 = (this.K11*(M7*Math.cos(this.K8)+this.M11*Math.sin(this.K9+this.K8)-M9+M10*Math.sin(this.K8))+this.K13*M5)/(this.M11*Math.cos(this.K9+this.K8)-M7*Math.sin(this.K8)+M10*Math.cos(this.K8));
+            // let M13 = (this.K11*(M7*Math.cos(this.K8)+this.M11*Math.sin(this.K9+this.K8)-M9+M10*Math.sin(this.K8))+this.K13*M5)/(this.M11*Math.cos(this.K9+this.K8)-M7*Math.sin(this.K8)+M10*Math.cos(this.K8));
             console.log("第二滑裂面的抗滑稳定安全系数K2´：" + M13);         
             
             this.resultM12 = M12;
